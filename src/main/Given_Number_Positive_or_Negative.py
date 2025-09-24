@@ -11,4 +11,4 @@ def check_number(num):
 if __name__ == "__main__":
     number = float(input("Enter a number: "))
     result = check_number(number)
-    print(f"The number is {result}.")
+    print(f"The given number is {result}.")
