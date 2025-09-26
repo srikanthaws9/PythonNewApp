@@ -5,5 +5,6 @@ resource "aws_s3_bucket" "my_bucket" {
         Name        = "My bucket"
         Environment = "Dev"
         Team        = "DevOps"
+        Project     = "ProjectX"
     }
     }
